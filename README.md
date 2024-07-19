@@ -1,6 +1,4 @@
-To add a Python script to start with Linux, you can use several methods, depending on your distribution and the context in which you want the script to run. Here are some common methods:
-
-### Method 1: Using systemd (For most modern Linux distributions)
+How to run a Python script on startup in a Raspberry PI as a Service.
 
 1. **Create a systemd service file:**
    Create a service file for your Python script. For example, create a file named `my_script.service` in `/etc/systemd/system/`:
