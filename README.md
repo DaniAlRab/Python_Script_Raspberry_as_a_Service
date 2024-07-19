@@ -17,7 +17,9 @@ How to run a Python script on startup in a Raspberry PI as a Service.
    [Service]
    ExecStart=/usr/bin/python3 /path/to/your_script.py
    Restart=always
-   User=your_username
+   #User=your_username
+   User=root
+
 
    [Install]
    WantedBy=multi-user.target
