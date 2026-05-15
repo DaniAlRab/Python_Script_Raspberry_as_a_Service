@@ -1,4 +1,4 @@
-How to run a Python script on startup in a Raspberry PI as a Service.
+How to run a Python script on startup on a Raspberry PI like a Service ?.
 
 1. **Create a systemd service file:**
    Create a service file for your Python script. For example, create a file named `my_script.service` in `/etc/systemd/system/`:
